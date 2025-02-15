@@ -13,3 +13,4 @@ async function generateContent(prompt){
     const result = await model.generateContent(prompt);
     return result.response.text();
 }
+module.exports=generateContent;
